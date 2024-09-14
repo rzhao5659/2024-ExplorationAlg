@@ -1,0 +1,7 @@
+<launch>
+  <env name="ROSCONSOLE_CONFIG_FILE"
+       value="$(find exploration_alg)/config/rosconsole.conf"/>
+  <!-- <node pkg="exploration_alg" type="test_map_node" name="test_map_node" output="screen"/> -->
+  <!-- <node pkg="exploration_alg" type="test_gain_node" name="test_gain_node" output="screen"/> -->
+  <node pkg="exploration_alg" type="test_explore_node" name="test_explore_node" output="screen"/>
+</launch>

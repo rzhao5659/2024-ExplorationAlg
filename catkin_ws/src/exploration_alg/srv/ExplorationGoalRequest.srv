@@ -1,0 +1,6 @@
+--- 
+bool is_exploration_done # if it's done, then the following coordinates don't mean anything, and this represents no more exploration goals. 
+float64 x   # exploration goal real world coordinates
+float64 y
+float64 theta 
+
