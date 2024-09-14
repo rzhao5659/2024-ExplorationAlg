@@ -1,6 +1,6 @@
 # Project Overview
 
-It's an exploration algorithm implemented from scratch (in `exploration_alg` folder) that combines frontier detection and pose sampling to identify an exploration goal that maximizes score based on information gain and proximity considerations.
+It's an exploration algorithm (in `exploration_alg` folder) that combines frontier detection and pose sampling to identify an exploration goal that maximizes score based on information gain and proximity considerations.
 
 This was implemented from scratch for a Mobile Robotic Course. For the grid mapping, I adapted code from explore_lite and costmap2d.
 
