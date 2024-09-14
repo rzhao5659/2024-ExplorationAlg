@@ -1,11 +1,13 @@
 # Project Overview
 
-It's an exploration algorithm implemented from scratch that combines frontier detection and pose sampling to identify an exploration goal that maximizes score based on information gain and proximity considerations. Done for a Mobile Robotic Course.
+It's an exploration algorithm implemented from scratch (in `exploration_alg` folder) that combines frontier detection and pose sampling to identify an exploration goal that maximizes score based on information gain and proximity considerations.
+
+This was implemented from scratch for a Mobile Robotic Course. For the grid mapping, I adapted code from explore_lite and costmap2d.
 
 Videos:
 
 - Step-by-step visualization that shows the exploration algorithm computations https://youtu.be/zR9HQgQkwRw
-- Comparing `explore-lite` (frontier-based ROS package) and this algorithm in a fully autonomous fashion https://www.youtube.com/watch?v=MxkkJAxtDhY
+- Comparing difference in behaviors between `explore-lite` (frontier-based ROS package) and this algorithm in a fully autonomous fashion https://www.youtube.com/watch?v=MxkkJAxtDhY
 
 The technical implementation details are in this paper https://arxiv.org/pdf/2404.13767, specifically in Methodology Exploration section.
 
